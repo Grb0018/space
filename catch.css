@@ -12,9 +12,10 @@ body{
     z-index: 5;
 }
 .bg{
-    position: absolute;
-    width: 98vw;
+    position: relative;
+    width: 100vw;
     height: 155vh;
+    left:0;
     top: -6vw;
 }
 #main {
