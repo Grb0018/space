@@ -178,19 +178,18 @@ body #score,#score1,#time,#count{
 }
 @media only screen and (max-device-width: 800px) {
    body #main{
-       left: 0;
-       top:19vh;
+       top:24vh;
        left:0;
-       height:78.3vh;
+       height:89.3vh;
        width:100%;
        margin-left:0;
    }
    .bg{
        position: absolute;
        width: 182vw;
-       height: 147vh;
-       top: -11vw;
-       left: -40vw
+       height: 169vh;
+       top: -10vw;
+       left: -18vw
    }
    body #score, #score1{
     background-image: url();
@@ -210,13 +209,19 @@ body #score,#score1,#time,#count{
    }
    body #score{
     left: 5vw;
-    top: 13.6vh;
+    top: 18.6vh;
 }
 body #score1{
-    left:78vw;
-    top: 13.6vh;
+    left:109vw;
+    top: 18.6vh;
 }
 #count{
-    left: 82vw;
+    left: 104vw;
+    top:109vh;
+}
+    #time {
+    top: 109vh;
+    left: 6vw;
+    font-size: 36px;
 }
 }
